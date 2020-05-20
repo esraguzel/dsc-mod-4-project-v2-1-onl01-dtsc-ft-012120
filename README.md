@@ -31,7 +31,7 @@ As the models got complicated, it is observed accuracy, sensitivity and specific
 
 ### Findings
 
-It is observed that accuracy scores increased and recall scores for minoruty label increased as the models got complicated.
+It is observed that accuracy and recall scores for minoruty label increased as the models got complicated.
 
 <img src="https://github.com/esraguzel/dsc-mod-4-project-v2-1-onl01-dtsc-ft-012120/blob/master/images/Screenshot%202020-05-20%20at%2020.58.36.png?raw=true" width="100%">
 
