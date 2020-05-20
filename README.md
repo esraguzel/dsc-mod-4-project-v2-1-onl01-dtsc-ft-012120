@@ -31,15 +31,34 @@ As the models got complicated, it is observed accuracy, sensitivity and specific
 
 ### Findings
 
-tablo 
+It is observed that accuracy scores increased and recall scores for minoruty label increased as the models got complicated.
 
-best model conf matrix and accuracy report layers
+<img src="https://github.com/esraguzel/dsc-mod-4-project-v2-1-onl01-dtsc-ft-012120/blob/master/images/Screenshot%202020-05-20%20at%2020.15.23.png?raw=true" width="100%">
 
+Among all the trained models, initially the best resulted obtained from the deeply connected CNN model. 
+
+<img src="https://github.com/esraguzel/dsc-mod-4-project-v2-1-onl01-dtsc-ft-012120/blob/master/images/cnn_model%20copy.png?raw=true" width="100%">
+
+
+The model predicted;
+
+- 19 False positives,
+- 621 True positives,
+- 175 True negatives,
+- 61 False negatives.
+
+<img src="https://github.com/esraguzel/dsc-mod-4-project-v2-1-onl01-dtsc-ft-012120/blob/master/images/Screenshot%202020-05-20%20at%2020.15.23.png?raw=true" width="100%">
+
+The model by performing 97% recall score for pneumonia (Sensitivity) partially achieved the set treshold. However, it is still underperforming in terms of Specificity treshold. 
+
+<img src="https://github.com/esraguzel/dsc-mod-4-project-v2-1-onl01-dtsc-ft-012120/blob/master/images/Screenshot%202020-05-20%20at%2020.15.03.png?raw=true" width="100%">
 
 
 ### Recommendations
+
 - The model should be used as a tool by medical experts and specialists which will support their diagnosis and treatment method.
 - To reach higher levels of accuracy and recall score oversampling techniques should be used.
+- Balancing the number of labels may also lead to higher accuracy and recall scores. 
 
 
 
